@@ -4,15 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="HiroshiKatahaba">
-<title>ppc | Top</title>
+<title>ppk | Top</title>
 </head>
 <body>
     <style>
         img {height: 955px;width: 1904px;}
     </style>
     <script>
-        var a = ("00" + Math.floor(Math.random() * 100)).slice(-2)
-        document.write("<img src='./img/" + a + ".jpg'>");
+        var a = Math.floor(Math.random()*(2)+0);
+        var b = ("00" + Math.floor(Math.random() * 100)).slice(-2);
+        document.write("<img src='./img/" + a + b + ".jpg'>");
     </script>
 </body>
 </html>
